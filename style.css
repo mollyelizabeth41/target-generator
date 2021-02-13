@@ -18,7 +18,7 @@ canvas {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -250,7 +250,7 @@ input:checked {
 #my-gui-container {
     margin:auto;
     position:absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0; left: 0; bottom: 0; right: 3vw;
 /*    color:black;*/
 /*
   position: absolute;

@@ -45,17 +45,18 @@ function grid() {
 }
 
 function update() {
-    
+    const context = canvas.getContext('2d');
+    context.clearRect(0, 0, canvas.width, canvas.height);
     redraw();
 }
 
 function guiSetup() {
     gui = new Gui();
     let gui_setup = new dat.GUI();
-    
+
     var customContainer = document.getElementById('my-gui-container');
     customContainer.appendChild(gui_setup.domElement);
-    
+
     gui_setup.add(gui, 'Circles', 0, 15).step(1).onChange(update);
     gui_setup.add(gui, 'Scale', 10, 75).step(1).onChange(update);
     gui_setup.add(gui, 'strokeWeight', 1, 10).step(1).onChange(update);
@@ -87,7 +88,7 @@ function guiSetup() {
 
 function description() {
 
-    f.style('color',gui.dColor);
+    f.style('color', gui.dColor);
 
     if (gui.description) {
 
@@ -118,11 +119,6 @@ function Gui() {
 
 }
 
-//function keyPressed() {
-//     save("myImage.png");
-//}
-
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
-
