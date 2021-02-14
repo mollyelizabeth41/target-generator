@@ -14,12 +14,15 @@ canvas {
 }
 
 .div-block {
+/*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
+*/
   display: flex;
   width: 60vw;
   height: 100vh;
+/*
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -28,6 +31,7 @@ canvas {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+*/
   font-family: Poppins, sans-serif;
 }
 
