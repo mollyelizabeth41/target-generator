@@ -111,11 +111,11 @@ function Gui() {
     this.xspacing = .13;
     this.yspacing = .13;
     this.randomScale = true;
-    this.color = [255, 0, 0];
+    this.color = [255, 255, 255];
     this.description = true;
-    this.bColor = '#000000';
+    this.bColor = '#0077ff';
     this.dbWidth = 0;
-    this.dColor = '#ff0000';
+    this.dColor = '#000000';
 
 }
 
