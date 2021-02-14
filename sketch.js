@@ -103,19 +103,19 @@ function description() {
 }
 
 function Gui() {
-    this.Circles = 3;
-    this.Scale = 26;
-    this.strokeWeight = 2;
-    this.margin = .125;
-    this.ymargin = .125;
-    this.xspacing = .125;
-    this.yspacing = .125;
+    this.Circles = 5;
+    this.Scale = 37;
+    this.strokeWeight = 1;
+    this.margin = .25;
+    this.ymargin = .25;
+    this.xspacing = .13;
+    this.yspacing = .13;
     this.randomScale = true;
-    this.color = [255, 255, 255];
+    this.color = [255, 0, 0];
     this.description = true;
-    this.bColor = '#c5bbbb';
+    this.bColor = '#000000';
     this.dbWidth = 0;
-    this.dColor = '#000000';
+    this.dColor = '#ff0000';
 
 }
 
