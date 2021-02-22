@@ -14,15 +14,13 @@ canvas {
 }
 
 .div-block {
-/*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-*/
   display: flex;
   width: 60vw;
   height: 100vh;
-/*
+    
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -31,7 +29,7 @@ canvas {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-*/
+
   font-family: Poppins, sans-serif;
 }
 
@@ -127,7 +125,7 @@ canvas {
 
 .dg.a {
     float: right;
-/*    margin-right: 4vw;*/
+    margin-right: 4vw;
 }
 .dg.main::-webkit-scrollbar {
     background: #fafafa;
@@ -173,7 +171,7 @@ border: 1px solid;
  
 .dg .c input[type=text]:focus {
     background: none;
-/*    color: #555;*/
+    color: #555;
 }
  
 .dg .c .slider {
@@ -234,7 +232,7 @@ input:checked {
     border:none;
 }
 
-/*#iframe-goes-in-here {
+#iframe-goes-in-here {
   position: absolute;
   width: 50%;
   height: 200px;
